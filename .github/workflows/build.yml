@@ -1,7 +1,5 @@
 name: build
-on:
-  release:
-    types: [published]
+on: [push]
 
 jobs:
   changelog:
